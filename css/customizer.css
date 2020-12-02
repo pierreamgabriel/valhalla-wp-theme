@@ -1,0 +1,41 @@
+/*
+Valhalla Customizer Styles
+*/
+#customize-controls .cannot-expand:hover .accordion-section-title,
+#customize-controls .panel-meta.customize-info .accordion-section-title:hover {
+    background: #5a6268;
+    color: #fff;
+}
+
+#customize-controls .customize-info .customize-help-toggle {
+    color: #fff;
+}
+
+.customize-control-repeater .repeater-row-label,
+.customize-control-repeater .repeater-field .customize-control-title,
+#customize-controls .repeater-field .description,
+#customize-controls .repeater-field .kirki-image-attachment,
+#customize-controls .menu-item-settings .description {
+    color: #333;
+}
+
+.wp-core-ui .customize-control-nav_menu-buttons .reorder-toggle {
+    color: #fff;
+}
+
+#new-custom-menu-item .customlinkdiv .howto {
+    color: #fff;
+}
+
+.customize-section-description a {
+    color: #fff;
+}
+
+.customize-control-nav_menu_location .create-menu {
+    color: #fff;
+}
+
+#customize-control-page_on_front .add-new-toggle,
+#customize-control-page_for_posts .add-new-toggle {
+    color: #fff;
+}

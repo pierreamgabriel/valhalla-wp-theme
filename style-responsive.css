@@ -1,0 +1,61 @@
+/*
+Valhalla Responsive Styles
+*/
+
+@media only screen and (max-width: 767px) {
+  #header {
+   min-height: 0px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .h1-header-headline {
+   font-size: calc(5vw + 10px)!important;
+  }
+  .header-carousel-caption {
+   font-size: calc(4vw + 5px)!important;
+  }
+  .home-section3-column2 {
+   border-left-width: 0px;
+  }
+  .home-section3-heading2 {
+  margin-top: 0px;
+  }
+  .home-section3-column2 {
+  padding-bottom: 0px;
+  }
+  .home-section1-heading-align, .home-section3-heading1, .home-section3-heading2 {
+    text-align: center !important;
+  }
+  .home-section1-text, .home-section2-text, .home-section3-text1, .home-section3-text2, .home-section5-box1-text, .home-section5-box2-text {
+   text-align: justify !important;
+  }
+  .home-section4-text {
+   text-align: justify;
+  }
+  .about-section1-heading {
+  text-align: center !important;
+  }
+  .about-section1-text {
+  text-align: justify !important;
+  }
+  .services-section1-heading {
+  text-align: center !important;
+  }
+  .services-section1-text {
+  text-align: justify !important;
+  }
+  .services-section3-text {
+  text-align: justify !important;
+  }
+  .faq-collapse-body {
+  text-align: justify !important;
+  }
+  .post-sidebar {
+  margin-left: -35px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #footer-about .footer-text {
+   text-align: justify !important;
+  }
+}

@@ -1,0 +1,26 @@
+/*
+Valhalla Editor Styles
+*/
+body {
+    background-color: #fff;
+    color: #333;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+}
+h1, h2, h3, h4, h5 {
+    font-family: 'Montserrat', sans-serif;
+}
+/* Main column width */
+.wp-block {
+    max-width: 800px;
+}
+
+/* Width of "wide" blocks */
+.wp-block[data-align="wide"] {
+    max-width: 100%;
+}
+
+/* Width of "full-wide" blocks */
+.wp-block[data-align="full"] {
+    max-width: none;
+}
