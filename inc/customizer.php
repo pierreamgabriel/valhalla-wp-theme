@@ -156,7 +156,7 @@ Kirki::add_section( 'valhalla_header_contact', array(
 
 Kirki::add_section( 'valhalla_home_header_headlines', array(
     'title'          => esc_html__( 'Header headlines', 'valhalla' ),
-    'description'    => esc_html__( 'Add headlines and captions that grabs your visitors attention.', 'valhalla' ),
+    'description'    => esc_html__( 'Add headlines and captions that grab your visitors attention.', 'valhalla' ),
     'panel'          => 'valhalla_home',
     'priority'       => 160,
 ) );
