@@ -3,11 +3,12 @@ Theme Name: Valhalla
 Theme URI: --
 Author: Pierre Macedo
 Author URI: --
-Description: Valhalla is a modern, fast, and highly customizable WordPress theme. It's carefully built under the most modern web design techniques to deliver a great layout with a fresh look to your business website. It differs from other themes, not only aesthetically but also in the way it was coded. It doesn't come with unnecessary scripts or plugins. Our polished code will make your webpages load faster, which is a requisite to improve your business Google rankings. Valhalla also stands out for its customization options. Through the WordPress Theme Customizer, you have access to more than 180 color scheme options, and you can also change fonts, sizes, and alignments. For those with some knowledge in HTML, our theme also offers the possibility to insert arbitrary HTML code in some key areas. Valhalla is also fully responsive, which means it's capable of displaying content nicely on any screen size.
-Version: 1.2
+Description: Valhalla is a modern, fast, and highly customizable WordPress theme. It is carefully built under the most modern web design techniques to deliver a great layout with a fresh look to your business website. It differs from other themes, not only aesthetically but also in the way it was coded. It doesn't come with unnecessary scripts or plugins. Our polished code will make your webpages load faster, which is a requisite to improve your business Google rankings. Valhalla also stands out for its customization options. Through the WordPress Theme Customizer, you have access to more than 180 color scheme options, and you can also change fonts, sizes, and alignments. For those with some knowledge in HTML, our theme also offers the possibility to insert arbitrary HTML code in some key areas. Valhalla is also fully responsive, which means it is capable of displaying content nicely on any screen size.
+Version: 1.1
 License: GNU General Public License v3.0
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: valhalla
+
 */
 
 /*--------------------------------------------------------------
@@ -913,14 +914,9 @@ body {
     /* Firefox 3.5 - 3.6 */
     box-shadow: 0px -15px 10px -15px #ccc;
     /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
-    border-bottom: 1px solid;
+    border-bottom: 2px solid;
     padding-top: 45px;
     padding-left: 30px;
-}
-
-.post-row {
-    max-width: 1200px;
-    margin: auto;    
 }
 
 .post-section {
