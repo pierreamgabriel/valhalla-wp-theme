@@ -1,15 +1,16 @@
 <?php /* Template Name: Blog  */ ?>
 <?php
-/**
- * The Blog page template.
- *
- * @package Valhalla
- * @subpackage Templates
- */
+/*
+* The Blog page template.
+*
+* @package Valhalla
+* @subpackage Templates
+*/
 
 // Do not allow directly accessing this file.
+
 if ( ! defined( 'ABSPATH' ) ) {
-	exit( 'Direct script access denied.' );
+exit( 'Direct script access denied.' );
 }
 ?>
 
@@ -17,4 +18,4 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 <?php get_template_part( 'template-parts/blog-template' ); ?>
 
-<?php get_footer();?>
+<?php get_footer(); ?>

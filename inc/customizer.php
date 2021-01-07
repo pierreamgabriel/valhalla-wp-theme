@@ -1,5 +1,5 @@
 <?php
-/**
+/*
  * Valhalla: Customizer
  *
  * @package Valhalla
@@ -7,6 +7,7 @@
  */
 
 // Do not allow directly accessing this file.
+
 if ( ! defined( 'ABSPATH' ) ) {
 	exit( 'Direct script access denied.' );
 }
@@ -3916,7 +3917,7 @@ Kirki::add_field( 'valhalla_config', [
 	'label'       => __( 'Main content area border bottom color', 'valhalla' ),
 	'description' => esc_html__( '', 'valhalla' ),
 	'section'     => 'valhalla_post_color',
-	'default'     => '#ccc',
+	'default'     => '#8898aa',
 	'output' => array(
 		array(
 			'element'  => '.post-main-content-area',
@@ -3947,7 +3948,7 @@ Kirki::add_field( 'valhalla_config', [
 	'default'     => '#525f7f',
 	'output' => array(
 		array(
-			'element'  => '.post-content, .post-tags, .post-tags a, .post-author, .comments-title, .logged-in-as a, .comment-form-comment label, .no-comments',
+			'element'  => '.post-content, .post-tags, .post-tags a, .post-author, .comments-title, .logged-in-as a, .comment-form-comment label, .comment-form-author label, .comment-form-email label, .comment-form-url label, .comment-form-cookies-consent label, .no-comments',
 			'property' => 'color',
 		),
 	),
@@ -4147,7 +4148,7 @@ Kirki::add_field( 'valhalla_config', [
 	'type'     => 'text',
 	'settings' => 'valhalla_contact_s1_heading',
 	'label'    => esc_html__( 'Heading', 'valhalla' ),
-	'description' => esc_html__( 'e.g., "We Would Love to Hear From You, Lets Get In Touch".', 'valhalla' ),
+	'description' => esc_html__( 'e.g., "We Would Love to Hear from You, Lets Get in Touch".', 'valhalla' ),
 	'section'  => 'valhalla_contact_s1',
 	'default'  => esc_html__( '', 'valhalla' ),
 	'priority' => 10,
@@ -4250,7 +4251,7 @@ Kirki::add_field( 'valhalla_config', [
 	'type'     => 'text',
 	'settings' => 'valhalla_contact_s2_maps_location',
 	'label'    => esc_html__( 'Google Maps location', 'valhalla' ),
-	'description' => esc_html__( 'Type a location or an address without space and with a + sign between the words. For example, 1600+Amphitheatre+Parkway+Mountain+View+CA', 'valhalla' ),
+	'description' => esc_html__( 'Type a location or an address without space and with a + sign between the words. For example, 1600+Amphitheatre+Parkway+Mountain+View+CA.', 'valhalla' ),
 	'section'  => 'valhalla_contact_s2',
 	'default'  => esc_html__( '', 'valhalla' ),
 	'priority' => 10,
