@@ -24,7 +24,7 @@ exit( 'Direct script access denied.' );
 </head>
 
 <body <?php body_class(); ?>>
-
+<?php wp_body_open(); ?>
 <div class="home-header-top-bar-bg">
 <div class="home-header-top-bar">
 <i id="header-phone" class="fas fa-lg fa-phone"></i><span class="phone-top">
@@ -45,7 +45,7 @@ exit( 'Direct script access denied.' );
 <div class="row">
 <div class="col">
 <div class="home-header-transparency-image">
-<img src="<?php echo get_template_directory_uri(); ?>/images/transparency.png" alt="<?php esc_attr__('transparent image', 'valhalla'); ?>" class="img-fluid">
+<img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/transparency.png" alt="<?php echo esc_attr__('transparent image', 'valhalla'); ?>" class="img-fluid">
 <div class="home-header-headlines">
 <div id="header-carousel" class="carousel" data-ride="carousel">
 <?php if ( get_theme_mod( 'valhalla_header_headlines') ) {

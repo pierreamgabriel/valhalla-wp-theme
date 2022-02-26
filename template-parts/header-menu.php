@@ -21,7 +21,7 @@ exit( 'Direct script access denied.' );
 <?php endif; ?>
 </a>
 	
-<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="<?php echo esc_html__( 'Toggle Navigation', 'valhalla' ); ?>">
+<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="<?php echo esc_attr__( 'Toggle Navigation', 'valhalla' ); ?>">
 <span class="navbar-custom-toggler-icon"><i class="fas fa-bars"></i></span>
 </button>
 	

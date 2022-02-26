@@ -56,7 +56,7 @@ $custom_title = false;
 ?>
 
 <body <?php body_class(); ?>>
-
+<?php wp_body_open(); ?>
 <div class="<?php echo esc_attr($header_prefix); ?>-header-top-bar-bg">
 <div class="<?php echo esc_attr($header_prefix); ?>-header-top-bar">
 <i id="header-phone" class="fas fa-lg fa-phone"></i><span class="phone-top">
