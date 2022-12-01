@@ -72,7 +72,7 @@ exit( 'Direct script access denied.' );
 
 <div class="container-fluid footer2">
 <div class="container-fluid section-footer">
-<p>©Copyright&nbsp;2020&nbsp;&nbsp;|&nbsp;&nbsp;Valhalla Theme&nbsp;<?php echo esc_html__('by', 'valhalla'); ?>&nbsp;Pierre Macedo&nbsp;&nbsp;|&nbsp;&nbsp;<?php echo esc_html__('All Rights Reserved', 'valhalla'); ?>
+<p>©Copyright&nbsp;2020&nbsp;&nbsp;|&nbsp;&nbsp;Valhalla Theme&nbsp;<?php echo esc_html__('by', 'valhalla'); ?>&nbsp;Pierre Gabriel&nbsp;&nbsp;|&nbsp;&nbsp;<?php echo esc_html__('All Rights Reserved', 'valhalla'); ?>
 </p>
 </div>
 </div>
